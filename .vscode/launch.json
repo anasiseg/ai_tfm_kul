@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "AI_MODULE",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "ai_module/training.py",
+            "console": "integratedTerminal",
+            "python": "ai_module/venv/bin/python",
+        },
+        {
+            "name": "SHARP_MODULE",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "sharp_module/app.py",
+            "console": "integratedTerminal",
+            "python": "sharp_module/venv/bin/python",
+        },
+        {
+            "name": "SCRIPTS_MODULE - GOES",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "thesis_scripts/download_sharp_goes.py",
+            "console": "integratedTerminal",
+            "python": "thesis_scripts/venv/bin/python",
+        },
+        {
+            "name": "SCRIPTS_MODULE - SHARP",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "thesis_scripts/download_sharp.py",
+            "console": "integratedTerminal",
+            "python": "thesis_scripts/venv/bin/python",
+        }
+    ]
+}
